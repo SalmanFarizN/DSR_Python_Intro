@@ -7,22 +7,31 @@ A comprehensive teaching repository for a one-day intensive course at [Data Scie
 ## Repo Structure
 
 ```
-├── final_notebooks/     # Complete teacher notebooks with solutions
+├── data_science_fundamentals/ # End-to-end Data Science Fundamentals module (CRISP-DM, Cleaning, Modeling)
+│   ├── live_notebooks/        # Classroom notebooks with prompts for live coding in class
+│   │   └── 01_crisp_dm_and_business_framing.ipynb ... 08_wrapup_and_capstone_project.ipynb
+│   ├── final_notebooks/       # Complete teacher reference notebooks with full solutions & outputs
+│   │   └── 01_crisp_dm_and_business_framing.ipynb ... 08_wrapup_and_capstone_project.ipynb
+│   ├── images/                # Process, architecture, and statistical diagrams
+│   ├── data/                  # Cleaned, engineered, and selected dataset partitions
+│   └── README.md              # Detailed curriculum roadmap and documentation
+├── final_notebooks/            # Complete teacher notebooks with solutions (Python Refresher)
 │   ├── 01_python_refresher/
 │   ├── 02_numpy/
 │   ├── 03_pandas_basics/
 │   ├── 04_pandas_advanced/
 │   └── 05_capstone/
-├── live_notebooks/      # Skeleton notebooks for live coding
+├── live_notebooks/             # Skeleton notebooks for live coding
 │   └── (same structure as final_notebooks)
-├── data/                # Datasets (Titanic, Berlin bikes)
+├── data/                       # Datasets (Telco Churn, Titanic, Berlin bikes)
 ├── README.md
 └── requirements.txt
 ```
 
-- **`final_notebooks/`**: Polished reference notebooks with full explanations, visualizations, and solutions. Use for self-study or post-class review.
+- **`data_science_fundamentals/`**: Comprehensive 8-notebook sequence bridging Python basics and Machine Learning: problem formulation, data acquisition pipelines, leak-free cleaning, feature engineering & selection, EDA, progressive modeling, and an end-to-end capstone.
+- **`final_notebooks/`**: Polished reference notebooks with full explanations, visualizations, and solutions for the one-day Python refresher.
 - **`live_notebooks/`**: Same structure but with `# YOUR CODE HERE` placeholders. Used for live coding during class.
-- **`data/`**: Datasets needed for the exercises and capstone.
+- **`data/`**: Datasets needed for the exercises, data science fundamentals, and capstones.
 
 ## Setup
 
