@@ -7,22 +7,33 @@ A comprehensive teaching repository for a one-day intensive course at [Data Scie
 ## Repo Structure
 
 ```
-├── final_notebooks/     # Complete teacher notebooks with solutions
+├── data_science_fundamentals/ # End-to-end Data Science Fundamentals module (CRISP-DM, Cleaning, Modeling)
+│   ├── images/                 # Process and statistical diagrams
+│   ├── 01_crisp_dm_and_business_framing.ipynb
+│   ├── 02_data_acquisition_and_management.ipynb
+│   ├── 03_data_cleaning.ipynb
+│   ├── 04_feature_engineering.ipynb
+│   ├── 05_feature_selection.ipynb
+│   ├── 06_data_exploration_and_visualization.ipynb
+│   ├── 07_model_selection_and_evaluation.ipynb
+│   └── 08_wrapup_and_capstone_project.ipynb
+├── final_notebooks/            # Complete teacher notebooks with solutions
 │   ├── 01_python_refresher/
 │   ├── 02_numpy/
 │   ├── 03_pandas_basics/
 │   ├── 04_pandas_advanced/
 │   └── 05_capstone/
-├── live_notebooks/      # Skeleton notebooks for live coding
+├── live_notebooks/             # Skeleton notebooks for live coding
 │   └── (same structure as final_notebooks)
-├── data/                # Datasets (Titanic, Berlin bikes)
+├── data/                       # Datasets (Telco Churn, Titanic, Berlin bikes)
 ├── README.md
 └── requirements.txt
 ```
 
-- **`final_notebooks/`**: Polished reference notebooks with full explanations, visualizations, and solutions. Use for self-study or post-class review.
+- **`data_science_fundamentals/`**: Comprehensive 8-notebook sequence bridging Python basics and Machine Learning: problem formulation, data acquisition pipelines, leak-free cleaning, feature engineering & selection, EDA, progressive modeling, and an end-to-end capstone.
+- **`final_notebooks/`**: Polished reference notebooks with full explanations, visualizations, and solutions for the one-day Python refresher.
 - **`live_notebooks/`**: Same structure but with `# YOUR CODE HERE` placeholders. Used for live coding during class.
-- **`data/`**: Datasets needed for the exercises and capstone.
+- **`data/`**: Datasets needed for the exercises, data science fundamentals, and capstones.
 
 ## Setup
 
