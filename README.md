@@ -8,16 +8,14 @@ A comprehensive teaching repository for a one-day intensive course at [Data Scie
 
 ```
 ├── data_science_fundamentals/ # End-to-end Data Science Fundamentals module (CRISP-DM, Cleaning, Modeling)
-│   ├── images/                 # Process and statistical diagrams
-│   ├── 01_crisp_dm_and_business_framing.ipynb
-│   ├── 02_data_acquisition_and_management.ipynb
-│   ├── 03_data_cleaning.ipynb
-│   ├── 04_feature_engineering.ipynb
-│   ├── 05_feature_selection.ipynb
-│   ├── 06_data_exploration_and_visualization.ipynb
-│   ├── 07_model_selection_and_evaluation.ipynb
-│   └── 08_wrapup_and_capstone_project.ipynb
-├── final_notebooks/            # Complete teacher notebooks with solutions
+│   ├── live_notebooks/        # Classroom notebooks with prompts for live coding in class
+│   │   └── 01_crisp_dm_and_business_framing.ipynb ... 08_wrapup_and_capstone_project.ipynb
+│   ├── final_notebooks/       # Complete teacher reference notebooks with full solutions & outputs
+│   │   └── 01_crisp_dm_and_business_framing.ipynb ... 08_wrapup_and_capstone_project.ipynb
+│   ├── images/                # Process, architecture, and statistical diagrams
+│   ├── data/                  # Cleaned, engineered, and selected dataset partitions
+│   └── README.md              # Detailed curriculum roadmap and documentation
+├── final_notebooks/            # Complete teacher notebooks with solutions (Python Refresher)
 │   ├── 01_python_refresher/
 │   ├── 02_numpy/
 │   ├── 03_pandas_basics/
